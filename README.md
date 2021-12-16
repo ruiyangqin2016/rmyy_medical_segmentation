@@ -22,5 +22,8 @@ Make a new directory
 Create an environment
 > $ python3 -m venv *project_name*
 >
-Install nnUNet from [Fabian's github](https://github.com/MIC-DKFZ/nnUNet)
+Install nnUNet from [Fabian's github](https://github.com/MIC-DKFZ/nnUNet) by following the instructions 
 > $ pip3 install nnUNet
+> 
+Activate the virtual environment
+> $ source *project_name*/bin/activate
