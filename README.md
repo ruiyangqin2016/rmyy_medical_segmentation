@@ -10,3 +10,17 @@
 
 ## Run in virtual environment
 After finish data processing, the next step is to setup virutal environment. The detail instruction could be found [here](https://linoxide.com/linux-how-to/setup-python-virtual-environment-ubuntu/)
+
+Install virtual environment(virtualenv)
+> $ sudo apt-get install -y python3-venv
+>
+Make a new directory
+> $ mkdir *environments_name*
+>
+> $ cd *environments_name*
+>
+Create an environment
+> $ python3 -m venv *project_name*
+>
+Install nnUNet from [Fabian's github](https://github.com/MIC-DKFZ/nnUNet)
+> $ pip3 install nnUNet
