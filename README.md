@@ -1,5 +1,6 @@
 # rmyy_medical_segmentation
 
+
 ## Data process
 1. Your dataset should have each pair of image and label file named same except for their tails. For the image file, it should be named by xxx_image.nii.gz; for the label file, it should be named by yyy_label.nii.gz; and xxx == yyy.
 2. Set your dataset address as the value of variable *files_address* in [rename.py](https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/rename.py).
@@ -27,3 +28,10 @@ Install nnUNet from [Fabian's github](https://github.com/MIC-DKFZ/nnUNet) by fol
 > 
 Activate the virtual environment
 > $ source *project_name*/bin/activate
+
+## Common commends for using nnU-Net
+1. Convert dataset to format of decathlon
+> $ nnUNet_convert_decathlon_task -i *location of the dataset folder*
+>
+2. Preprocessing
+> $ nnUNet_plan_and_preprocess -t XXX --verify_dataset_integrity
