@@ -14,3 +14,10 @@
 >
 4. Activate virtual environment (Start from this step if you are a returned user)
 > $ conda activate *my_virtual_environment*
+
+## What to install (Under virtual environment):
+> $ pip install nnUNet
+> 
+> $ conda install -c anaconda cudatoolkit=11.3
+> 
+> $ conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
