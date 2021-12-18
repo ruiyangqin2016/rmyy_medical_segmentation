@@ -1,5 +1,8 @@
 # rmyy_medical_segmentation
+This repository is about preprocessing and modifying given dataset to run it on nnU-Net
 
+## Issues on the given dataset [rmyy](https://pan.baidu.com/s/1xUsVtSrjcFjMsKVY_dpuhA)
+1. Naming convension: Each file should be named in form of *one_word_name*+*numerical_number*.nii.gz and a pair of label and image file should have same name. For example, image file is named ABC1.nii.gz and is stored in folder imagesTr, while label file for that is named as ABC1.nii.gz and is stored in folder labelsTr.
 
 ## Data process
 1. Your dataset should have each pair of image and label file named same except for their tails. For the image file, it should be named by xxx_image.nii.gz; for the label file, it should be named by yyy_label.nii.gz; and xxx == yyy.
