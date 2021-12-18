@@ -4,6 +4,7 @@ This repository is about preprocessing and modifying given dataset to run it on 
 ## Issues on the given dataset [rmyy](https://pan.baidu.com/s/1xUsVtSrjcFjMsKVY_dpuhA)
 1. Naming convension: Each file should be named in form of *one_word_name*+*numerical_number*.nii.gz and a pair of label and image file should have same name. For example, image file is named ABC1.nii.gz and is stored in folder imagesTr, while label file for that is named as ABC1.nii.gz and is stored in folder labelsTr.
 2. The image file and label file should have the exact same dimension and origin point. If not, [SimpleITK](https://simpleitk.org/SPIE2019_COURSE/02_images_and_resampling.html) is a good library to modify nii.gz file.
+3. To generate json file for data conversion, feel free to use the code [generate_json.py](https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/generate_json.py). If you do that, please remember to change the file_address variable to yours, and set the number of labels to match the labels you made in your label file. Also, remember to set *tensorImageSize* as 3D.
 
 ## Data process
 1. Your dataset should have each pair of image and label file named same except for their tails. For the image file, it should be named by xxx_image.nii.gz; for the label file, it should be named by yyy_label.nii.gz; and xxx == yyy.
