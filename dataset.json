@@ -3,19 +3,30 @@
     "labels": {
         "0": "background",
         "1": "diaphragm",
-        "2": "atrium"
+        "2": "atrium",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": ""
     },
     "licence": "hands off!",
     "modality": {
         "0": "CT"
     },
     "name": "Task11_rmyy",
-    "numTest": 5,
-    "numTraining": 195,
+    "numTest": 8,
+    "numTraining": 192,
     "reference": "",
     "release": "0.0",
     "tensorImageSize": "3D",
     "test": [
+        "./imagesTs/rmyy106.nii.gz",
+        "./imagesTs/rmyy170.nii.gz",
+        "./imagesTs/rmyy183.nii.gz",
         "./imagesTs/rmyy195.nii.gz",
         "./imagesTs/rmyy196.nii.gz",
         "./imagesTs/rmyy197.nii.gz",
@@ -58,10 +69,6 @@
         {
             "image": "./imagesTr/rmyy105.nii.gz",
             "label": "./labelsTr/rmyy105.nii.gz"
-        },
-        {
-            "image": "./imagesTr/rmyy106.nii.gz",
-            "label": "./labelsTr/rmyy106.nii.gz"
         },
         {
             "image": "./imagesTr/rmyy107.nii.gz",
@@ -344,10 +351,6 @@
             "label": "./labelsTr/rmyy17.nii.gz"
         },
         {
-            "image": "./imagesTr/rmyy170.nii.gz",
-            "label": "./labelsTr/rmyy170.nii.gz"
-        },
-        {
             "image": "./imagesTr/rmyy171.nii.gz",
             "label": "./labelsTr/rmyy171.nii.gz"
         },
@@ -398,10 +401,6 @@
         {
             "image": "./imagesTr/rmyy182.nii.gz",
             "label": "./labelsTr/rmyy182.nii.gz"
-        },
-        {
-            "image": "./imagesTr/rmyy183.nii.gz",
-            "label": "./labelsTr/rmyy183.nii.gz"
         },
         {
             "image": "./imagesTr/rmyy184.nii.gz",
