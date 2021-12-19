@@ -21,3 +21,12 @@
 > $ conda install -c anaconda cudatoolkit=11.3
 > 
 > $ conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+> 
+> Note: If conda doesn't work, use pip.
+
+## Upload file to the server:
+> $ scp -P *Address_of_File* username@IP_address: *Target_Server_Location*
+> 
+> For example: scp -P xxxx /home/ruiyang/Desktop/nnUNet/data.json ruiyang@xxx.xxx.xxx.xxx:/data/users/ruiyang/nnUNet
+> .
+> Note: port identifier is uppercase instead of lowercase.
