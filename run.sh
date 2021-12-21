@@ -1,4 +1,6 @@
-
+# run this by: 
+# 1. go to its directory
+# 2. type: sh run.sh
 
 # 2D U-Net
 for f in 0 1 2 3 4
