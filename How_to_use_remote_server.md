@@ -26,7 +26,7 @@
 ## Upload file to the server:
 > $ scp -P *Address_of_File* username@IP_address: *Target_Server_Location*
 > 
-> For example: scp -P xxxx /home/ruiyang/Desktop/nnUNet/data.json ruiyang@xxx.xxx.xxx.xxx:/data/users/ruiyang/nnUNet
+> For example: scp -P xxxx /home/ruiyang/Desktop/nnUNet/data.json ruiyang@xxx.xxx.xxx.xxx:/data/users/ruiyang/nnUNet/nnUNet_raw/nnUNet_raw_data
 > 
 > Note: port identifier is uppercase instead of lowercase.
 
