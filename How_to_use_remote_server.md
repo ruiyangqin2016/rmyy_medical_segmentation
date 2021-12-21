@@ -16,11 +16,9 @@
 ## What to install (Under virtual environment):
 > $ pip install nnUNet
 > 
-> $ conda install -c anaconda cudatoolkit=11.3
+> $ pip3 install torch==1.10.1+cu113 torchvision==0.11.2+cu113 torchaudio==0.10.1+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
 > 
-> $ conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 > 
-> Note: If conda doesn't work, use pip.
 
 ## Upload file to the server:
 > $ scp -P *Address_of_File* username@IP_address: *Target_Server_Location*
