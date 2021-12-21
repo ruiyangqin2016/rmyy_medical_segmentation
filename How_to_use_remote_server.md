@@ -7,11 +7,16 @@
 2. Activate Anacoda3 environment:
 > $ source /data/users/software/anaconda3/bin/activate
 >
-3. Create user's own virtual environment
-> $ conda create -n *my_virtual_environment(name whatever you want)* python=3.7
+3. Make dir and go
+> $ mkdir *environment_name*
+> 
+> $ cd *environment_name*
 >
-4. Activate virtual environment (Start from this step if you are a returned user)
-> $ conda activate *my_virtual_environment*
+4. Create virtual environment 
+> $ python -m venv *project_name*
+> 
+5. Activate virtual environment (Start from this step if you are a returned user)
+> $ source ./*environment_name*/bin/activate
 
 ## What to install (Under virtual environment):
 > $ pip install nnunet
