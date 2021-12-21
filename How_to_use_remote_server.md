@@ -30,3 +30,8 @@
 > For example: scp -P xxxx /home/ruiyang/Desktop/nnUNet/data.json ruiyang@xxx.xxx.xxx.xxx:/data/users/ruiyang/nnUNet
 > 
 > Note: port identifier is uppercase instead of lowercase.
+
+## Notes:
+> $ pwd // show current location in the server
+> 
+> Once activate vitrual environment, use pip to install any package you want if "conda install" doesn't work properly
