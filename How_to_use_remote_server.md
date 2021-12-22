@@ -30,6 +30,10 @@
 > 
 > Note: port identifier is uppercase instead of lowercase.
 
+## submit job:
+1. Write all command lines into a script: *job_name*.sh
+2. submit job by: jsub < *job_name*.sh
+
 ## Notes:
 > $ pwd // show current location in the server
 > 
