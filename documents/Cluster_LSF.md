@@ -8,3 +8,4 @@ cuda10.1, cuda9.0, anaconde3, python3.6, python3.7, pytorch
 > $ bsub < job_sub.sh
 > 
 ## Understand the relation between "local" virtual environment and the cluster:
+Users can create their own virtual environment based on this [instruction](https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/How_to_use_remote_server.md). 
