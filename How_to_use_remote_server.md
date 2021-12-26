@@ -32,7 +32,7 @@
 
 ## submit job:
 1. Write all command lines into a script: *job_name*.sh
-2. submit job by: jsub < *job_name*.sh
+2. submit job by: jsub < [job_sub.sh](https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/job_sub.sh)
 
 ## Notes:
 > $ pwd // show current location in the server
