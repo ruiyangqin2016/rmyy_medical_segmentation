@@ -27,4 +27,6 @@
 ### 主动脉面积
 **关键词解释：**
 1. Valsalva窦(主动脉窦dou，英文：Aortic Sinus)：主动脉瓣相对的动脉壁向外膨出，瓣膜与主动脉壁之间的内腔，称主动脉窦或瓦耳萨耳瓦窦(Val-salvaantrum)，简称瓦氏窦。<br/>
-<img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/AS/tof_9.jpeg width=70%><img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/AS/tof_10.jpeg width=30%>
+<img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/AS/tof_9.jpeg width=70%><img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/AS/tof_10.jpeg width=30%><br/>
+2. **S**ino**t**ubular **J**unction (STJ)
+
