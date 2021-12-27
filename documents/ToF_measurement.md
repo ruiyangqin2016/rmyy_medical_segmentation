@@ -25,11 +25,17 @@
 <img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/PA/tof_8.png width=32.5%>
 
 ### 主动脉面积
-**关键词解释：**
+**关键词解释**：
 1. Valsalva窦(主动脉窦dou，英文：Aortic Sinus)：主动脉瓣相对的动脉壁向外膨出，瓣膜与主动脉壁之间的内腔，称主动脉窦或瓦耳萨耳瓦窦(Val-salvaantrum)，简称瓦氏窦。<br/>
-<img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/AS/tof_9.jpeg width=50%><img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/AS/tof_10.jpeg width=25%><img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/AS/tof_11.jpeg width=25%><br/>
+<img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/AS/tof_9.jpeg width=70%><img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/AS/tof_10.jpeg width=25%><br/>
 2. **S**ino**t**ubular **J**unction (STJ): The sinotubular junction is the region of the ascending aorta between the aortic sinuses (of Valsalva) and where the normal tubular configuration of the aorta is attained. It marks the junction of the aortic root and ascending aorta. <br/>
-3. 
+<img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/AS/tof_11.jpeg width=40%><img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/AS/tof_12.png width=50%><br/>
+**主动脉**：此为主动脉根部位置，LOVT为左心室流出道。此项指标通常用于升主动脉瘤和A型夹层，但TOF患者往往也会合并主动脉根部扩张，故此指标也纳入。<br/>
+**测量方法**：定位于冠状面，旋转此平面直至主动脉根部完全显露，从上至下分别是STJ（窦管交界），主动脉valsalva窦和主动脉瓣环直径（SOV）。
+
+
+
+
 
 
 ### 缩写词表
