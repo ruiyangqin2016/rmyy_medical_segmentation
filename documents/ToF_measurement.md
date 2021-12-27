@@ -23,3 +23,7 @@
 <img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/PA/tof_6.png width=32.5%>
 <img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/PA/tof_7.png width=32.5%>
 <img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/PA/tof_8.png width=32.5%>
+
+### 主动脉面积
+**关键词解释：**
+1. valsalva窦(主动脉窦dou)：主动脉瓣相对的动脉壁向外膨出，瓣膜与主动脉壁之间的内腔，称主动脉窦或瓦耳萨耳瓦窦(Val-salvaantrum)，简称瓦氏窦。
