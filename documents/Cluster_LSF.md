@@ -5,7 +5,16 @@ LSF is a resource cluster management system developed by IBM. In our lab, LSF ma
 cuda10.1, cuda9.0, anaconde3, python3.6, python3.7, pytorch
 
 ## How to use the cluster:
-> $ bsub < job_sub.sh
+> $ bsub < job_sub.sh // 提交任务 <br/>
+> $ jjobs // 查看自己所有的任务情况 <br/>
+> $ jjobs -u all //查看所有的任务详细情况<br/>
+> $ jjobs -l JOBID //查看JOBID这个任务的详细情况<br/>
+> $ jctrl kill JOBID //终止某个任务<br/>
+> $ jqueues //查看所有队列的状态<br/>
+> $ jsub -q queue_name task.sh //提交任务到特定队列<br/>
+> $ jctrl stop JOBID //暂停某个任务<br/>
+> $ jctrl resume JOBID //恢复某个任务<br/>
+> $ jhosts // 查看节点信息 <br/>
 > 
 ## Understand the relation between "local" virtual environment and the cluster:
 1. Users can create their own virtual environment based on this [instruction](https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/How_to_use_remote_server.md). <br />
