@@ -30,3 +30,35 @@
 <img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/AS/tof_9.jpeg width=70%><img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/AS/tof_10.jpeg width=30%><br/>
 2. **S**ino**t**ubular **J**unction (STJ)
 
+### 缩写词表
+>AAS = Acute aortic syndrome 急性主动脉综合征<br/>
+AR = Aortic regurgitation 主动脉瓣反流<br/>
+ASE = American Society of Echocardiography 美国超声心动图学会<br/>
+BAI = Blunt aortic injury 主动脉钝性损害<br/>
+BSA = Body surface area 体表面积<br/>
+CT = Computed tomography 计算机断层扫描<br/>
+CTA = Computed tomographic aortography CT 主动脉造影成像<br/>
+CXR = Chest x-ray 胸部 X 线<br/>
+EACVI = European Association of Cardiovascular Imaging 欧洲心血管影像学会<br/>
+EAU = Epiaortic ultrasound 主动脉外超声<br/>
+GCA = Giant-cell (temporal) arteritis 巨细胞性 (颞) 动脉炎<br/>
+ICM = Iodinated contrast media 碘造影剂<br/>
+IMH = Intramural hematoma 壁内血肿<br/>
+IRAD = International Registry of Acute Aortic Dissection 急性主动脉夹层的国际注册<br/>
+MDCT = Multidetector computed tomography 多排探测器螺旋 CT <br/>
+MIP = Maximum-intensity projection 最高强度投影<br/>
+MR = Magnetic resonance 磁共振<br/>
+MRI = Magnetic resonance imaging 磁共振成像<br/>
+PWV = Pulsewave velocity 脉搏波传播速度<br/>
+STJ = Sinotubular junction 窦管交界处<br/>
+TA = Takayasu arteritis 多发性动脉炎<br/>
+TEE = Transesophageal echocardiography 经食管超声心动图<br/>
+TEVAR = Transthoracic endovascular aortic repair 经胸血管内主动脉修复<br/>
+3D = Three-dimensional 三维<br/>
+TTE = Transthoracic echocardiography 经胸超声心动图<br/>
+2D = Two-dimensional 二维<br/>
+ULP = Ulcerlike projection 溃疡样投影<br/>
+
+
+### 引用
+> [2015 成人胸主动脉疾病多方法成像：](https://www.asecho.org/wp-content/uploads/2016/06/MM-Imaging-in-Thoracic-Aortic-Diseases-2015_Chinese.pdf)
