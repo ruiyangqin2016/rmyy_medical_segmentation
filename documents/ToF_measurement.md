@@ -40,9 +40,10 @@
 **如何测量**：定位于轴位面，找到左室流出道（LVOT）进入主动脉后的位置，此时的主动脉瓣看不到LVOT，也没有发出冠状动脉，定位于主动脉瓣后，调整冠状面和矢状面至垂直，此时可以清晰地看见主动脉瓣的三叶结构，在此时测量主动脉瓣环直径（SOV），主动脉瓣面积，主动脉瓣叶周长，瓣叶窦-窦长径，瓣叶窦-连合长径。所有主动脉瓣的测量均在此处进行。<br/>
 <img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/ML/tof_15.png width=43%><img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/ML/tof_16.jpg width=29%> <br/>
 
+### 5. 各瓣叶最长窦-窦长径
+<img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/tof_17.png width=45%> <img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/tof_18.png width=40%>
 
-
-
+### 6. 
 
 
 ### 缩写词表
