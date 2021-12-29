@@ -43,9 +43,15 @@
 ### 5. 各瓣叶最长窦-窦长径
 <img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/tof_17.png width=45%> <img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/tof_18.png width=40%>
 
-### 6. 
+### 6. 各瓣叶窦-连合长度
+**名词解释**：
+1. Aortic valve(AV): 主动脉瓣是半月瓣，位于左心室和主动脉之间，抑制射入主动脉的血流回流入左心室，形态学上类似于肺动脉瓣。因为处于中心位置，主动脉瓣与各个心腔和瓣膜关系密切.<br/>
+    a. LCC: left coronary cusp <br/>
+    b. RCC: right coronary cusp <br/>
+    c. NCC:  the non-coronary cusp <br/>
+3. Aorta(AO): 主动脉是人体内最粗大的动脉管，从心脏的左心室发出，向上向右再向下略呈弓状，再沿脊柱向下行，在胸腔和腹腔内分出很多较小的动脉。主动脉是向全身各部输送血液的主要导管。也叫大动脉。
 
-
+<img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/Six/tof_19.png width=37%><img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/Six/tof_20.jpg width=25%><img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/Six/tof_21.png width=37%><img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/Six/tof_22.png width=40%><img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/Six/tof_23.png width=40%>
 ### 缩写词表
 >AAS = Acute aortic syndrome 急性主动脉综合征<br/>
 AR = Aortic regurgitation 主动脉瓣反流<br/>
