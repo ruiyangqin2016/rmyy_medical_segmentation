@@ -52,6 +52,15 @@
 3. Aorta(AO): 主动脉是人体内最粗大的动脉管，从心脏的左心室发出，向上向右再向下略呈弓状，再沿脊柱向下行，在胸腔和腹腔内分出很多较小的动脉。主动脉是向全身各部输送血液的主要导管。也叫大动脉。
 
 <img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/Six/tof_19.png width=37%><img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/Six/tof_20.jpg width=25%><img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/Six/tof_21.png width=37%><img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/Six/tof_22.png width=40%><img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/Six/tof_23.png width=40%>
+
+### 7. RVOT 长度+宽度
+**名词解释**：
+1. Right ventricular outflow tract(RVOT, 右心室流出道): 法洛四联症的两个主要解剖异常，右心室流出道狭窄和心室间隔缺损均颇多变异。右心室流出道狭窄可位于漏斗部，肺动脉瓣膜部，肺动脉瓣环，肺动脉主干或肺动脉分支，有的病例可以两处存在狭窄。法洛四联症呈现临床症状的时间和轻重程度取决于右心室流出道梗阻的程度和肺循环血流量的多寡。<br/>
+
+**如何测量**：
+定位于轴位，找到RVOT部分，在此处做标记；切换至矢状面，将冠状面的RVOT与定位线平行，轴位的RVOT与定位线垂直，旋转调整至显露三尖瓣环平面；以室上嵴底部为下界，上界为肺动脉瓣环最低处，平行于横膈，测量RVOT长度，最窄处宽度和距离心肌的长度。PS：这个指标的可重复性不太好。<br/>
+<img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/seven/tof_24.png width=45%><img src=https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/documents/images/seven/tof_25.png width=45%>
+
 ### 缩写词表
 >AAS = Acute aortic syndrome 急性主动脉综合征<br/>
 AR = Aortic regurgitation 主动脉瓣反流<br/>
