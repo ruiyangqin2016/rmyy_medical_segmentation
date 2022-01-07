@@ -4,8 +4,8 @@
 #JSUB -gpgpu "num=2" 
 #JSUB -R "span[ptile=2]" 
 #JSUB -n 2
-#JSUB -o output.%J 
-#JSUB -e err.%J 
+##JSUB -o output.%J 
+##JSUB -e err.%J 
  
 ##########################Cluster environment variable###################### 
 if [ -z "$LSB_HOSTS" -a -n "$JH_HOSTS" ]
@@ -38,8 +38,29 @@ module load pytorch/pytorch1.5.1
 source /data/users/ruiyang/environments/nnunet/bin/activate
 
 ## 2D U-Net
-nnUNet_train 2d nnUNetTrainerV2 Task011_rmyy 0 --npz >> log_2D_0.txt
+##nnUNet_train 2d nnUNetTrainerV2 Task011_rmyy 0 --npz >> log_2D_0.txt
 ##nnUNet_train 2d nnUNetTrainerV2 Task011_rmyy 1 --npz >> log_2D_1.txt
 ##nnUNet_train 2d nnUNetTrainerV2 Task011_rmyy 2 --npz >> log_2D_2.txt
 ##nnUNet_train 2d nnUNetTrainerV2 Task011_rmyy 3 --npz >> log_2D_3.txt
 ##nnUNet_train 2d nnUNetTrainerV2 Task011_rmyy 4 --npz >> log_2D_4.txt
+
+## 3D f U-Net
+##nnUNet_train 3d_fullres nnUNetTrainerV2 Task011_rmyy 0 --npz >> log_3Df_0.txt
+##nnUNet_train 3d_fullres nnUNetTrainerV2 Task011_rmyy 1 --npz >> log_3Df_1.txt
+##nnUNet_train 3d_fullres nnUNetTrainerV2 Task011_rmyy 2 --npz >> log_3Df_2.txt
+##nnUNet_train 3d_fullres nnUNetTrainerV2 Task011_rmyy 3 --npz >> log_3Df_3.txt
+##nnUNet_train 3d_fullres nnUNetTrainerV2 Task011_rmyy 4 --npz >> log_3Df_4.txt
+
+## 3D cl U-Net
+##nnUNet_train 3d_lowres nnUNetTrainerV2 Task011_rmyy 0 --npz >> log_3Dcl_0.txt
+##nnUNet_train 3d_lowres nnUNetTrainerV2 Task011_rmyy 1 --npz >> log_3Dcl_1.txt
+##nnUNet_train 3d_lowres nnUNetTrainerV2 Task011_rmyy 2 --npz >> log_3Dcl_2.txt
+##nnUNet_train 3d_lowres nnUNetTrainerV2 Task011_rmyy 3 --npz >> log_3Dcl_3.txt
+##nnUNet_train 3d_lowres nnUNetTrainerV2 Task011_rmyy 4 --npz >> log_3Dcl_4.txt
+
+## 3D cf U-Net
+##nnUNet_train 3d_cascade_fullres nnUNetTrainerV2CascadeFullRes Task011_rmyy 0 --npz >> log_3Dcf_0.txt
+##nnUNet_train 3d_cascade_fullres nnUNetTrainerV2CascadeFullRes Task011_rmyy 1 --npz >> log_3Dcf_1.txt
+##nnUNet_train 3d_cascade_fullres nnUNetTrainerV2CascadeFullRes Task011_rmyy 2 --npz >> log_3Dcf_2.txt
+##nnUNet_train 3d_cascade_fullres nnUNetTrainerV2CascadeFullRes Task011_rmyy 3 --npz >> log_3Dcf_3.txt
+##nnUNet_train 3d_cascade_fullres nnUNetTrainerV2CascadeFullRes Task011_rmyy 4 --npz >> log_3Dcf_4.txt
