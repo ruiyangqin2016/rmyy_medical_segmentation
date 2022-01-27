@@ -44,4 +44,6 @@ Activate the virtual environment
 > $ nnUNet_convert_decathlon_task -i *location of the dataset folder*
 >
 2. Preprocessing
-> $ nnUNet_plan_and_preprocess -t XXX --verify_dataset_integrity
+> $ nnUNet_plan_and_preprocess -t XXX --verify_dataset_integrity <br/>
+3. Find the best model
+> $ nnUNet_find_best_configuration -m 2d 3d_fullres 3d_lowres -t 011
