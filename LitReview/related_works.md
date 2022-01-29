@@ -10,5 +10,6 @@
   - [A Survey on Incorporating Domain Knowledge into Deep Learning for Medical Image Analysis](https://arxiv.org/pdf/2004.12150.pdf)
 - 2019:
   - [Deep Learning Based Analysis of Histopathological Images of Breast Cancer](https://internal-journal.frontiersin.org/articles/10.3389/fgene.2019.00080/full)
+  - [Deep Learning in Alzheimer's Disease: Diagnostic Classification and Prognostic Prediction Using Neuroimaging Data](https://arxiv.org/pdf/1905.00931.pdf)
 - 2017:
   - [A Survey on Deep Learning in Medical Image Analysis](https://arxiv.org/pdf/1702.05747.pdf)
