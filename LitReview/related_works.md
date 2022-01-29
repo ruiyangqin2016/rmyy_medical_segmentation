@@ -11,5 +11,6 @@
 - 2019:
   - [Deep Learning Based Analysis of Histopathological Images of Breast Cancer](https://internal-journal.frontiersin.org/articles/10.3389/fgene.2019.00080/full)
   - [Deep Learning in Alzheimer's Disease: Diagnostic Classification and Prognostic Prediction Using Neuroimaging Data](https://arxiv.org/pdf/1905.00931.pdf)
+  - [Prediction of prognosis in patients with tetralogy of Fallot based on deep learning imaging analysis](https://heart.bmj.com/content/heartjnl/106/13/1007.full.pdf?with-ds=yes)
 - 2017:
   - [A Survey on Deep Learning in Medical Image Analysis](https://arxiv.org/pdf/1702.05747.pdf)
