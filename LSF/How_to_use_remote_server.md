@@ -30,6 +30,10 @@
 > 
 > Note: port identifier is uppercase instead of lowercase.
 
+## Get file from the server:
+> $ scp -P username@IP_address: **Address_of_File** **Target_Server_Location** <br/>
+> **Note: You do not need to login ssh whenever push or pull files**
+
 ## submit job:
 1. Write all command lines into a script: *job_name*.sh
 2. submit job by: jsub < [job_sub.sh](https://github.com/ruiyangqin2016/rmyy_medical_segmentation/blob/main/job_sub.sh)
