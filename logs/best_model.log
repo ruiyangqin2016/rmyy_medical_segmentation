@@ -1,0 +1,1502 @@
+
+
+Please cite the following paper when using nnUNet:
+
+Isensee, F., Jaeger, P.F., Kohl, S.A.A. et al. "nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation." Nat Methods (2020). https://doi.org/10.1038/s41592-020-01008-z
+
+
+If you have questions or suggestions, feel free to open an issue at https://github.com/MIC-DKFZ/nnUNet
+
+running missing postprocessing for Task011_rmyy and model 2d
+Foreground vs background
+before: 0.7022560278670937
+after:  0.7010385443248631
+1
+before: 0.7591994365957754
+after:  0.7596320097523365
+Removing all but the largest region for class 1 improved results!
+min_valid_object_sizes None
+10
+before: 0.6383986808626285
+after:  0.4079734916452166
+2
+before: 0.7358992267378511
+after:  0.7363949176150841
+Removing all but the largest region for class 2 improved results!
+min_valid_object_sizes None
+3
+before: 0.7813060810343527
+after:  0.7837025099814127
+Removing all but the largest region for class 3 improved results!
+min_valid_object_sizes None
+4
+before: 0.8386569749840994
+after:  0.8387525000977458
+Removing all but the largest region for class 4 improved results!
+min_valid_object_sizes None
+5
+before: 0.8422805822379759
+after:  0.8374810950085975
+6
+before: 0.7426353682871604
+after:  0.7406316065149751
+7
+before: 0.7673872828968449
+after:  0.7677537101962552
+Removing all but the largest region for class 7 improved results!
+min_valid_object_sizes None
+8
+before: 0.45983061246122175
+after:  0.4506984819973187
+9
+before: 0.4569660325730282
+after:  0.45465783435335405
+done
+for which classes:
+[1, 2, 3, 4, 7]
+min_object_sizes
+None
+done
+running missing postprocessing for Task011_rmyy and model 3d_fullres
+Foreground vs background
+before: 0.7369440534404058
+after:  0.7364630713967981
+1
+before: 0.7782442461372083
+after:  0.7797657368545164
+Removing all but the largest region for class 1 improved results!
+min_valid_object_sizes None
+10
+before: 0.6956223569152363
+after:  0.45677067016773326
+2
+before: 0.7645858190477582
+after:  0.7657241141984574
+Removing all but the largest region for class 2 improved results!
+min_valid_object_sizes None
+3
+before: 0.8123693342593336
+after:  0.8129270236333851
+Removing all but the largest region for class 3 improved results!
+min_valid_object_sizes None
+4
+before: 0.8679457049790246
+after:  0.8688915479522077
+Removing all but the largest region for class 4 improved results!
+min_valid_object_sizes None
+5
+before: 0.86696383973968
+after:  0.8646071091502918
+6
+before: 0.7930679735485965
+after:  0.7938448885538462
+Removing all but the largest region for class 6 improved results!
+min_valid_object_sizes None
+7
+before: 0.7912588757870495
+after:  0.7913122310063073
+Removing all but the largest region for class 7 improved results!
+min_valid_object_sizes None
+8
+before: 0.5062431334892301
+after:  0.49976201805676695
+9
+before: 0.49313925050094126
+after:  0.4890856145971118
+done
+for which classes:
+[1, 2, 3, 4, 6, 7]
+min_object_sizes
+None
+done
+running missing postprocessing for Task011_rmyy and model 3d_lowres
+
+
+Please cite the following paper when using nnUNet:
+
+Isensee, F., Jaeger, P.F., Kohl, S.A.A. et al. "nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation." Nat Methods (2020). https://doi.org/10.1038/s41592-020-01008-z
+
+
+If you have questions or suggestions, feel free to open an issue at https://github.com/MIC-DKFZ/nnUNet
+
+running missing postprocessing for Task011_rmyy and model 3d_lowres
+Foreground vs background
+before: 0.7322938001254805
+after:  0.731759130120418
+1
+before: 0.7706031864370578
+after:  0.7705029073835382
+10
+before: 0.6811160372875422
+after:  0.4371720639908718
+2
+before: 0.7579000218773452
+after:  0.7581930260310196
+Removing all but the largest region for class 2 improved results!
+min_valid_object_sizes None
+3
+before: 0.8081541409128072
+after:  0.808311448697138
+Removing all but the largest region for class 3 improved results!
+min_valid_object_sizes None
+4
+before: 0.865570582966543
+after:  0.8658894385291983
+Removing all but the largest region for class 4 improved results!
+min_valid_object_sizes None
+5
+before: 0.8668768593966879
+after:  0.8632315172997941
+6
+before: 0.7893222148349001
+after:  0.7858765142645484
+7
+before: 0.7889727810267549
+after:  0.7889918986554666
+Removing all but the largest region for class 7 improved results!
+min_valid_object_sizes None
+8
+before: 0.5124296581801656
+after:  0.5048963046909128
+9
+before: 0.481992518335002
+after:  0.479637926871393
+done
+for which classes:
+[2, 3, 4, 7]
+min_object_sizes
+None
+done
+
+I will now ensemble combinations of the following models:
+ ['2d', '3d_fullres', '3d_lowres']
+ensembling /data/users/ruiyang/nnUNet/nnUNet_trained_models/nnUNet/2d/Task011_rmyy/nnUNetTrainerV2__nnUNetPlansv2.1 /data/users/ruiyang/nnUNet/nnUNet_trained_models/nnUNet/3d_fullres/Task011_rmyy/nnUNetTrainerV2__nnUNetPlansv2.1
+
+Ensembling folders
+ /data/users/ruiyang/nnUNet/nnUNet_trained_models/nnUNet/2d/Task011_rmyy/nnUNetTrainerV2__nnUNetPlansv2.1 
+ /data/users/ruiyang/nnUNet/nnUNet_trained_models/nnUNet/3d_fullres/Task011_rmyy/nnUNetTrainerV2__nnUNetPlansv2.1
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+Foreground vs background
+before: 0.7260716004248697
+after:  0.7251754498617233
+1
+before: 0.7726887878341575
+after:  0.7724864185959822
+10
+before: 0.6764286422124691
+after:  0.43997466682718406
+2
+before: 0.7545882329765524
+after:  0.7551373456950824
+Removing all but the largest region for class 2 improved results!
+min_valid_object_sizes None
+3
+before: 0.7989863843067185
+after:  0.8000403082379618
+Removing all but the largest region for class 3 improved results!
+min_valid_object_sizes None
+4
+before: 0.8566289453866268
+after:  0.8571386768545409
+Removing all but the largest region for class 4 improved results!
+min_valid_object_sizes None
+5
+before: 0.8597522146176174
+after:  0.8607858743342321
+Removing all but the largest region for class 5 improved results!
+min_valid_object_sizes None
+6
+before: 0.7775034904069544
+after:  0.775928640260881
+7
+before: 0.783708608535013
+after:  0.7837837340188439
+Removing all but the largest region for class 7 improved results!
+min_valid_object_sizes None
+8
+before: 0.498903013871456
+after:  0.49191715778892303
+9
+before: 0.48152768410113156
+after:  0.48007218550604486
+done
+for which classes:
+[2, 3, 4, 5, 7]
+min_object_sizes
+None
+done
+ensembling /data/users/ruiyang/nnUNet/nnUNet_trained_models/nnUNet/2d/Task011_rmyy/nnUNetTrainerV2__nnUNetPlansv2.1 /data/users/ruiyang/nnUNet/nnUNet_trained_models/nnUNet/3d_lowres/Task011_rmyy/nnUNetTrainerV2__nnUNetPlansv2.1
+
+Ensembling folders
+ /data/users/ruiyang/nnUNet/nnUNet_trained_models/nnUNet/2d/Task011_rmyy/nnUNetTrainerV2__nnUNetPlansv2.1 
+ /data/users/ruiyang/nnUNet/nnUNet_trained_models/nnUNet/3d_lowres/Task011_rmyy/nnUNetTrainerV2__nnUNetPlansv2.1
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+Foreground vs background
+before: 0.724969085460996
+after:  0.7243417947719881
+1
+before: 0.7716862373506931
+after:  0.7721365357915767
+Removing all but the largest region for class 1 improved results!
+min_valid_object_sizes None
+10
+before: 0.6688262033078995
+after:  0.43072034832055617
+2
+before: 0.7540988200709503
+after:  0.7542673053194865
+Removing all but the largest region for class 2 improved results!
+min_valid_object_sizes None
+3
+before: 0.7969818943339825
+after:  0.7979298929189512
+Removing all but the largest region for class 3 improved results!
+min_valid_object_sizes None
+4
+before: 0.856636383562143
+after:  0.8573858036667222
+Removing all but the largest region for class 4 improved results!
+min_valid_object_sizes None
+5
+before: 0.859527101273799
+after:  0.8598440519807898
+Removing all but the largest region for class 5 improved results!
+min_valid_object_sizes None
+6
+before: 0.775708893945529
+after:  0.7731443912879313
+7
+before: 0.7852830909785423
+after:  0.7853214661365217
+Removing all but the largest region for class 7 improved results!
+min_valid_object_sizes None
+8
+before: 0.5032727475257982
+after:  0.4975757131879493
+9
+before: 0.47766948226062333
+after:  0.47592744697367345
+done
+for which classes:
+[1, 2, 3, 4, 5, 7]
+min_object_sizes
+None
+done
+ensembling /data/users/ruiyang/nnUNet/nnUNet_trained_models/nnUNet/3d_fullres/Task011_rmyy/nnUNetTrainerV2__nnUNetPlansv2.1 /data/users/ruiyang/nnUNet/nnUNet_trained_models/nnUNet/3d_lowres/Task011_rmyy/nnUNetTrainerV2__nnUNetPlansv2.1
+
+Ensembling folders
+ /data/users/ruiyang/nnUNet/nnUNet_trained_models/nnUNet/3d_fullres/Task011_rmyy/nnUNetTrainerV2__nnUNetPlansv2.1 
+ /data/users/ruiyang/nnUNet/nnUNet_trained_models/nnUNet/3d_lowres/Task011_rmyy/nnUNetTrainerV2__nnUNetPlansv2.1
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+force_separate_z: None interpolation order: 3
+no resampling necessary
+Foreground vs background
+before: 0.7403123448176528
+after:  0.7402242585576875
+1
+before: 0.7792373480303191
+after:  0.7793443046817999
+Removing all but the largest region for class 1 improved results!
+min_valid_object_sizes None
+10
+before: 0.697068050948697
+after:  0.45510619605645375
+2
+before: 0.7673408678216425
+after:  0.7688667880245056
+Removing all but the largest region for class 2 improved results!
+min_valid_object_sizes None
+3
+before: 0.8112345058887239
+after:  0.8112861830770548
+Removing all but the largest region for class 3 improved results!
+min_valid_object_sizes None
+4
+before: 0.8705561527143938
+after:  0.8707778659561837
+Removing all but the largest region for class 4 improved results!
+min_valid_object_sizes None
+5
+before: 0.8713575613120194
+after:  0.8676596277698859
+6
+before: 0.798215418914896
+after:  0.7987702323070325
+Removing all but the largest region for class 6 improved results!
+min_valid_object_sizes None
+7
+before: 0.7954256165553156
+after:  0.7954173915079465
+8
+before: 0.5175463762381607
+after:  0.5062407923723513
+9
+before: 0.4951415497523605
+after:  0.4949744754767824
+done
+for which classes:
+[1, 2, 3, 4, 6]
+min_object_sizes
+None
+done
+2d 0.7022560278670937
+3d_fullres 0.7369440534404058
+3d_lowres 0.7322938001254805
+ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1 0.7260716004248697
+ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_lowres__nnUNetTrainerV2__nnUNetPlansv2.1 0.724969085460996
+ensemble_3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1--3d_lowres__nnUNetTrainerV2__nnUNetPlansv2.1 0.7403123448176528
+Task011_rmyy submit model ensemble_3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1--3d_lowres__nnUNetTrainerV2__nnUNetPlansv2.1 0.7403123448176528
+
+Here is how you should predict test cases. Run in sequential order and replace all input and output folder names with your personalized ones
+
+nnUNet_predict -i FOLDER_WITH_TEST_CASES -o OUTPUT_FOLDER_MODEL1 -tr nnUNetTrainerV2 -ctr nnUNetTrainerV2CascadeFullRes -m 3d_fullres -p nnUNetPlansv2.1 -t Task011_rmyy
+nnUNet_predict -i FOLDER_WITH_TEST_CASES -o OUTPUT_FOLDER_MODEL2 -tr nnUNetTrainerV2 -ctr nnUNetTrainerV2CascadeFullRes -m 3d_lowres -p nnUNetPlansv2.1 -t Task011_rmyy
+nnUNet_ensemble -f OUTPUT_FOLDER_MODEL1 OUTPUT_FOLDER_MODEL2 -o OUTPUT_FOLDER -pp /data/users/ruiyang/nnUNet/nnUNet_trained_models/nnUNet/ensembles/Task011_rmyy/ensemble_3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1--3d_lowres__nnUNetTrainerV2__nnUNetPlansv2.1/postprocessing.json
+
