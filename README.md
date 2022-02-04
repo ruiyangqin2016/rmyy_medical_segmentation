@@ -5,6 +5,7 @@
   - **documents**: This is a collection of miscellaneous documents
   - **feature_selection**: Select features which are most related to prognosis of ToF
   - **LitReview**: Literature review
+  - **logs**: Model training logs, pull from the cluster
 
 ## Issues on the given dataset [rmyy](https://pan.baidu.com/s/1xUsVtSrjcFjMsKVY_dpuhA)
 1. Naming convension: Each file should be named in form of *one_word_name*+*numerical_number*.nii.gz and a pair of label and image file should have same name. For example, image file is named ABC1.nii.gz and is stored in folder imagesTr, while label file for that is named as ABC1.nii.gz and is stored in folder labelsTr.
